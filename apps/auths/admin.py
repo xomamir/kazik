@@ -11,3 +11,5 @@ class MyUserAdmin(admin.ModelAdmin):
     list_filter = ['email', 'nickname', 'currency']
     ordering = ['email', 'nickname']
 
+
+admin.site.register(Transaction)
